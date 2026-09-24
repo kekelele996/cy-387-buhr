@@ -9,3 +9,8 @@ body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #f6f8fb
 .full { width: 100%; }
 .map-panel, .repair { margin: 20px 0; padding: 18px; border: 1px solid #d7dee8; background: white; border-radius: 8px; }
 .repair { display: grid; grid-template-columns: 120px 1fr 120px auto; gap: 12px; align-items: center; }
+.renewal-section { margin: 28px 0; padding: 18px; border: 1px solid #d7dee8; background: white; border-radius: 8px; }
+.section-head { display: flex; align-items: center; justify-content: space-between; }
+.section-head h2 { margin: 0; }
+.hint { color: #6b7280; font-size: 13px; margin: 8px 0 16px; }
+.contract-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; align-items: start; }
